@@ -38,7 +38,7 @@ import Image from 'next/image';
             <div className="absolute bottom-0 left-0 p-2">
               <ul className="flex flex-wrap gap-2">
                 {pills.map((pill: Pill, index: number) => (
-                  <li key={index} className="bg-[#e1e1e1] font-video text-black rounded-full px-3 py-1 text-xs font-semibold">
+                  <li key={index} className="bg-[#e1e1e1] font-video text-black rounded-full px-3 py-1 text-xs font-medium">
                     {pill.title}
                   </li>
                 ))}
@@ -47,7 +47,7 @@ import Image from 'next/image';
         </div>
         <div className="flex flex-col justify-between flex-grow p-4">
           <div>
-            <h1 className="text-2xl font-effra font-semibold text-[#00e7ba] mb-2">{title}</h1>
+            <h1 className="text-2xl font-effra font-medium text-[#00e7ba] mb-2">{title}</h1>
             <p className="text-gray-300 text-md mb-4">{content}</p>
           </div>
           <div>

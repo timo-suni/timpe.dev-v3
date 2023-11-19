@@ -14,9 +14,9 @@ export default function Nav() {
          
         <div>
           <Link href="/">
-            <span className="text-4xl font-semibold whitespace-nowrap font-video text-[#00e7ba]">&gt;</span>
-            <span className="self-center text-4xl font-semibold whitespace-nowrap font-effra">TIMPE.Dev</span>
-            <span className="text-4xl font-semibold whitespace-nowrap font-video animate-blink">_</span>
+            <span className="text-4xl font-medium whitespace-nowrap font-video text-[#00e7ba]">&gt;</span>
+            <span className="self-center text-4xl font-medium whitespace-nowrap font-effra">TIMPE.Dev</span>
+            <span className="text-4xl font-medium whitespace-nowrap font-video animate-blink">_</span>
           </Link>
         </div>
         <div>
