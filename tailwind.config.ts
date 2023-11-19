@@ -8,11 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '35%': { opacity: '1' },
+          '50%': { opacity: '0' },
+          '75%': { opacity: '0' },
+        }
       },
+      animation: {
+        'blink': 'blink 1.5s infinite',
+        'pulseShadow': 'pulse-shadow 6s infinite'
+      }
+    },
+    fontFamily: {
+      video: ["Video", "serif"],
+      effra: ["Effra", "sans-serif"],
     },
   },
   plugins: [],
