@@ -14,6 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel='stylesheet' href='https://use.typekit.net/nth0jjf.css'/>
+      </head>
       <body className='mx-auto px-2 text-neutral-50 h-screen max-w-screen-xl pt-6 bg-[#1A1A1A]'>
 
         <div className='fixed z-10 top-4 left-0 w-full'>

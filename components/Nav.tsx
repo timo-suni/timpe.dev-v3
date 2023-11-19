@@ -27,12 +27,12 @@ export default function Nav() {
             <div className={`${isOpen ? 'visible text-center mx-4 bg-[#1A1A1A]' : 'invisible'} absolute rounded-lg top-full right-0 w-1/2 z-10 md:visible md:static`}>
               <ul className="font-medium font-video text-lg flex flex-col p-4 md:p-0 border border-teal-800 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-whit">
                 <li>
-                <Link onClick={() => setIsOpen(!isOpen)} href="/#skills" className='navLink custom-link block py-2 pl-3 pr-4 md:border-0 md:p-0 hover:text-[#bafef0] transition-colors duration-1000'>
+                <Link onClick={() => setIsOpen(false)} href="/#skills" className='navLink custom-link block py-2 pl-3 pr-4 md:border-0 md:p-0 hover:text-[#bafef0] transition-colors duration-1000'>
                   SKILLS
                 </Link>
                 </li>
                 <li>
-                <Link onClick={() => setIsOpen(!isOpen)} href="/#projects" className='navLink custom-link block py-2 pl-3 pr-4 md:border-0 md:p-0 hover:text-[#bafef0] transition-colors duration-1000'>
+                <Link onClick={() => setIsOpen(false)} href="/#projects" className='navLink custom-link block py-2 pl-3 pr-4 md:border-0 md:p-0 hover:text-[#bafef0] transition-colors duration-1000'>
                   PROJECTS
                 </Link>
                 </li>

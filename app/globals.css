@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(https://use.typekit.net/nth0jjf.css);
 
 @keyframes pulse-shadow {
     0% {
