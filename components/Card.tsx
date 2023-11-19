@@ -33,7 +33,7 @@ import Image from 'next/image';
     return (
       <div className="bg-[#1e1e1e] font-effra border border-[#6a6a6a87] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out flex flex-col">
         <div className="relative w-full h-48">
-          <Image className="w-full h-48 object-cover grayscale" layout="fill" src={urlFor(image)} alt={image.alt || slug} />
+          <Image className="w-full h-48 object-cover grayscale" width={300} height={300} src={urlFor(image)} alt={image.alt || slug} />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80"></div>
             <div className="absolute bottom-0 left-0 p-2">
               <ul className="flex flex-wrap gap-2">
