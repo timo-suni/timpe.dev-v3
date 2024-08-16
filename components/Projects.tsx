@@ -30,7 +30,6 @@ export default async function Projects() {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {/* map through projects and pass the props to Card component */}
         {projects.map((project: Project) => (
           <Card
             key={project._id}

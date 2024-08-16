@@ -11,10 +11,6 @@
   "dependencies": {
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.18.1",
-    "@visx/group": "^3.3.0",
-    "@visx/scale": "^3.3.0",
-    "@visx/shape": "^3.3.0",
-    "@visx/wordcloud": "^3.3.0",
     "d3-cloud": "^1.2.7",
     "next": "13.5.6",
     "next-sanity": "^5.5.8",

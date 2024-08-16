@@ -11,7 +11,6 @@ export default function Nav() {
     <div>
       <nav className="relative px-2">
         <div className="max-w-screen-xl animate-pulseShadow ease-in-out flex flex-wrap items-center justify-between mx-auto p-4 h-[75px] bg-[#1e1e1e] shadow-inner border-2 rounded-2xl border-[#00e7b987] shadow-inner-dark">
-         
         <div>
           <Link href="/">
             <span className="text-4xl font-medium whitespace-nowrap font-video text-[#00e7ba]">&gt;</span>

@@ -50,8 +50,6 @@ import Image from 'next/image';
             <h1 className="text-2xl font-effra font-medium text-[#00e7ba] mb-2">{title}</h1>
             <p className="text-gray-300 text-md mb-4">{content}</p>
           </div>
-          <div>
-          <div>
           <span className="text-sm font-medium text-[#bafef0] mr-2">Check it out @</span>
           <div className="flex flex-wrap items-center gap-2">
             {links.map((link: Link, index: number) => (
@@ -61,11 +59,6 @@ import Image from 'next/image';
                 </span>
               </Link>
             ))}
-          </div>
-        </div>
-
-
-
           </div>
         </div>
       </div>

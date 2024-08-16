@@ -19,7 +19,6 @@ export default async function Skills() {
       </h2>
 
       <div className='font-effra'>
-        {/* map through skills and display them */}
         {skills.map((skill) => (
           <div key={skill._id} className="bg-[#1e1e1e] shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-4 border border-[#6a6a6a87] rounded-lg mb-4">
             <h3 className="text-xl text-[#00e7ba] mb-2 font-medium">{skill.title}</h3>
